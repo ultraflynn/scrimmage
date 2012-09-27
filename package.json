@@ -1,0 +1,18 @@
+{
+  "name": "scrimmage",
+  "version": "0.0.0",
+  "description": "Statistics and game analysis server for Battlefield 3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ultraflynn/scrimmage.git"
+  },
+  "keywords": [
+    "bf3"
+  ],
+  "author": "Matt Biggin",
+  "license": "BSD"
+}
