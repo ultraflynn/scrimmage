@@ -16,6 +16,6 @@
   "author": "Matt Biggin",
   "license": "BSD",
   "dependencies": {
-    "winston": "0.6.2"
+    "winston": "~0.6.2"
   }
 }
