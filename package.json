@@ -1,6 +1,6 @@
 {
   "name": "scrimmage",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Statistics and game analysis server for Battlefield 3",
   "main": "index.js",
   "scripts": {
@@ -16,6 +16,7 @@
   "author": "Matt Biggin",
   "license": "BSD",
   "dependencies": {
-    "winston": "~0.6.2"
+    "winston": "~0.6.2",
+    "node-bf3stats": "~0.1.0"
   }
 }
