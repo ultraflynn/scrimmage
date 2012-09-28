@@ -1,6 +1,6 @@
 {
   "name": "scrimmage",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Statistics and game analysis server for Battlefield 3",
   "main": "index.js",
   "scripts": {
