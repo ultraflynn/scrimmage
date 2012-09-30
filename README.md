@@ -12,7 +12,7 @@ that do not require a signed request.
 * player
 * dogtags
 * server
-* TODO
+* onlinestats
 
 Signed requests
 ---------------
