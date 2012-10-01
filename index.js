@@ -4,6 +4,7 @@
 var core = require("./lib/scrimmage");
 
 var players = [];
+var servers = [];
 var signature = {
 	ident: null,
 	secretKey: null
@@ -14,6 +15,11 @@ exports.addPlayer = function(player) {
 	return this;
 }
 
+exports.addServer = function(id) {
+	servers.push(id);
+	return this;
+}
+
 exports.setSignature = function(ident, secretKey) {
 	signature.ident = ident;
 	signature.secretKey = secretKey;
@@ -21,10 +27,9 @@ exports.setSignature = function(ident, secretKey) {
 }
 
 exports.listen = function(platform, port) {
-	var scrimmage = core.create(platform)
-									    .setPlayers(players)
-									    .setSignature(signature.ident,
-															    	signature.secretKey)
-									    .listen(port);
-	return scrimmage;
+	return core.create(platform)
+						 .setPlayers(players)
+						 .setServers(servers)
+						 .setSignature(signature.ident, signature.secretKey)
+						 .listen(port);
 }
