@@ -2,7 +2,7 @@
   "name": "scrimmage",
   "version": "0.1.4",
   "description": "Statistics and game analysis server for Battlefield 3",
-  "main": "index.js",
+  "main": "./lib/scrimmage",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
