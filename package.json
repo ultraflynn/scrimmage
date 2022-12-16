@@ -19,6 +19,6 @@
     "winston": "~0.6.2",
     "node-bf3stats": "~0.1.0",
     "async": "~0.1.22",
-    "underscore": "~1.4.0"
+    "underscore": "~1.12.1"
   }
 }
